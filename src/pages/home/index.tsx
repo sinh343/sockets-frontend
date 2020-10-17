@@ -1,10 +1,12 @@
 import React from "react";
-import { navigateTo } from "../../utilities/navigation";
+import { useHistory } from "react-router";
+import { PageURI } from "../../models/enums";
 
 export const Home = () => {
+    const history = useHistory();
     return (
         <div>
-            <button onClick={() => navigateTo("")}>Start!</button>
+            <button onClick={() => history.push(PageURI.CONNECT4)}>Start!</button>
         </div>
     )
 }
