@@ -22,10 +22,10 @@ export const Button = () => {
         return function cleanup() { disconnectSocket(socketRef.current) };
     }, [])
 
-
     const emitMessage = () => {
         socketRef.current?.emit("fire", value + 1);
     }
+
     return (
         <div>
             <h1>Button has been fired {value} time{(value === 0 || value > 1) && 's'}</h1>

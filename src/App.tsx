@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
-import { Button } from './components/Button';
-import { PageURI } from './models/enums';
-import { Home } from './pages/home';
+import { Button } from 'components/Button';
+import { PageURI } from 'models/enums';
+import { Home } from 'pages/home';
 
 function App() {
   return (

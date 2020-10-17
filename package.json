@@ -41,8 +41,12 @@
     ]
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.7",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/socket.io": "^2.1.11",
     "@types/socket.io-client": "^1.4.34",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
     "socket.io": "^2.3.0"
   }
 }
