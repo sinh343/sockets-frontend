@@ -12,15 +12,15 @@ function App() {
         <header className="App-header">
           <Button />
         </header>
+        <Switch>
+          <Route path={PageURI.HOME} exact>
+            <Home />
+          </Route>
+          <Route path={PageURI.CONNECT4}>
+            <h1>under construction...</h1>
+          </Route>
+        </Switch>
       </div>
-      <Switch>
-        <Route path={PageURI.HOME} exact>
-          <Home />
-        </Route>
-        <Route path={PageURI.CONNECT4}>
-          <h1>under construction...</h1>
-        </Route>
-      </Switch>
     </BrowserRouter>
   );
 }
